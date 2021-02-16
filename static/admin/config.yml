@@ -33,6 +33,8 @@ collections:
     label_singular: "Gallery"
     folder: "src/content/galleries"
     create: true
+    editor:
+      preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "markdown" }
@@ -42,6 +44,7 @@ collections:
           widget: "relation",
           collection: "projects",
           search_fields: ["title", "slug"],
-          value_field: "{{slug}}",
+          value_field: "{{id}}",
           display_fields: ["title"],
+          multiple: true,
         }
