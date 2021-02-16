@@ -36,6 +36,12 @@ collections:
     editor:
       preview: false
     fields:
+      - {
+          label: "Slug",
+          name: "slug",
+          widget: "string",
+          hint: "Start slug with /. Use only alphanumeric characters, - and _. Avoid spaces in any cases.",
+        }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "markdown" }
       - {
