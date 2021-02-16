@@ -24,7 +24,32 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        gfm: true,
+        plugins: [
+          {
+            resolve: `gatsby-plugin-netlify-cms-paths`,
+            options: {
+              cmsConfig: `/static/admin/config.yml`,
+            },
+          },
+          `gatsby-remark-reading-time`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1024,
+              showCaptions: true,
+              linkImagesToOriginal: false,
+              tracedSVG: true,
+              loading: "lazy",
+            },
+          },
+          `gatsby-remark-responsive-iframe`,
+        ]
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

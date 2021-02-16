@@ -6,8 +6,9 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "project"
-    label: "Project"
+  - name: "projects"
+    label: "Projects"
+    label_singular: "Project"
     folder: "src/content/projects"
     create: true
     slug: "index"
@@ -21,3 +22,26 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Slug",
+          name: "slug",
+          widget: "string",
+          hint: "Start slug with /. Use only alphanumeric characters, - and _. Avoid spaces in any cases.",
+        }
+  - name: "galleries"
+    label: "Galleries"
+    label_singular: "Gallery"
+    folder: "src/content/galleries"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - {
+          label: "Projects",
+          name: "projects",
+          widget: "relation",
+          collection: "projects",
+          search_fields: ["title", "slug"],
+          value_field: "{{slug}}",
+          display_fields: ["title"],
+        }
