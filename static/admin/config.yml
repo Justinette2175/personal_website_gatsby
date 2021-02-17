@@ -24,9 +24,19 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - {
           label: "Slug",
-          name: "slug",
+          name: "customSlug",
           widget: "string",
           hint: "Start slug with /. Use only alphanumeric characters, - and _. Avoid spaces in any cases.",
+        }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "relation",
+          collection: "tags",
+          search_fields: ["label"],
+          value_field: "{{label}}",
+          display_fields: ["label"],
+          multiple: true,
         }
   - name: "galleries"
     label: "Galleries"
@@ -36,9 +46,10 @@ collections:
     editor:
       preview: false
     fields:
+      - { label: "Publish Date", name: "date", widget: "datetime" }
       - {
           label: "Slug",
-          name: "slug",
+          name: "customSlug",
           widget: "string",
           hint: "Start slug with /. Use only alphanumeric characters, - and _. Avoid spaces in any cases.",
         }
@@ -49,8 +60,17 @@ collections:
           name: "projects",
           widget: "relation",
           collection: "projects",
-          search_fields: ["title", "slug"],
-          value_field: "{{slug}}",
+          search_fields: ["title"],
+          value_field: "{{fields.customSlug}}",
           display_fields: ["title"],
           multiple: true,
         }
+  - name: "tags"
+    label: "Tags"
+    label_singular: "Tag"
+    folder: "src/content/tags"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Label", name: "label", widget: "string" }

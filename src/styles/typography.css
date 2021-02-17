@@ -1,0 +1,24 @@
+@layer base {
+  * {
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+  }
+  @font-face {
+    font-family: "body";
+    font-weight: 400;
+    src: url("./fonts/hn.otf");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "body";
+    font-weight: 700;
+    src: url("./fonts/hnb.otf");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "body";
+    font-weight: 600;
+    src: url("./fonts/hnsb.otf");
+    font-display: swap;
+  }
+}

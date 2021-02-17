@@ -1,3 +1,18 @@
+@import "./typography.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind screens;
+
+@layer base {
+  h2 {
+    @apply text-5xl;
+    @apply font-bold;
+  }
+
+  h3 {
+    @apply text-xl;
+    @apply font-semibold;
+  }
+}

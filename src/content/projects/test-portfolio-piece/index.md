@@ -4,7 +4,7 @@ date: 2021-02-15T18:55:36.754Z
 description: Created in collaboration with Emmanuelle Germain, a French
   literature high-school teacher. Grand Prize Winner of the Education stream of
   the Post COVID challenge 2020 organized by the Cooperation and Desjardins.
-slug: /test-portfolio-piece
+customSlug: /test-portfolio-piece
 ---
 
 Created in collaboration with Emmanuelle Germain, a French literature high-school teacher.
