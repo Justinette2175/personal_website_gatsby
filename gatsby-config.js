@@ -12,7 +12,7 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    `gatsby-plugin-react-helmet`, 
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-postcss`,
     {
@@ -47,8 +47,8 @@ module.exports = {
             },
           },
           `gatsby-remark-responsive-iframe`,
-        ]
-      }
+        ],
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,

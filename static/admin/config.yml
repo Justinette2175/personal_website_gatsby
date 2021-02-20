@@ -54,7 +54,7 @@ collections:
           hint: "Start slug with /. Use only alphanumeric characters, - and _. Avoid spaces in any cases.",
         }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Description", name: "body", widget: "markdown" }
       - {
           label: "Projects",
           name: "projects",
@@ -73,4 +73,17 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "Label", name: "label", widget: "string" }
+      - { label: "Label", name: "tagLabel", widget: "string" }
+      - { 
+        label: "Color", 
+        name: "color", 
+        widget: "select",   
+        options:
+          - { label: "Yellow", value: "#FDF5A5" }
+          - { label: "Orange", value: "#F8D49A" }
+          - { label: "Green", value: "#AEF2C1" }
+          - { label: "Blue", value: "#AEE6F2" }
+          - { label: "Indigo", value: "#AEC4F2" } 
+          - { label: "Violet", value: "#E7CEFD" }
+          - { label: "Pink", value: "#FDCECE" }
+      }

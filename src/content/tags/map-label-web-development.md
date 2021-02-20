@@ -1,3 +1,3 @@
 ---
-label: Web development
+tagLabel: Web Development
 ---

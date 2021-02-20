@@ -1,3 +1,3 @@
 ---
-label: Music and poetry
+tagLabel: Music and Poetry
 ---

@@ -2,26 +2,29 @@ import React from "react"
 import Layout from "../components/Layout"
 import { Card } from "../components/Card"
 import { graphql } from "gatsby"
+import { Markdown } from "../components/Markdown"
 
 export default function Project({ data }) {
   const gallery = data.markdownRemark
   const projects = data.allMarkdownRemark.edges
-  console.log("data", projects)
   return (
     <Layout>
       <h2>{gallery.frontmatter.title}</h2>
-      <p
-        className="max-w-screen-sm"
-        dangerouslySetInnerHTML={{ __html: gallery.frontmatter.description }}
-      />
+      <Markdown className="max-w-screen-sm">
+        {gallery.rawMarkdownBody || ""}
+      </Markdown>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {projects.map(({ node }) => (
-          <Card
-            title={node.frontmatter.title}
-            url={node.frontmatter.customSlug}
-            text={node.excerpt}
-          />
-        ))}
+        {projects.map(({ node }) => {
+          const tags = node.frontmatter.tags || []
+          return (
+            <Card
+              title={node.frontmatter.title}
+              url={node.frontmatter.customSlug}
+              text={node.excerpt}
+              tags={tags.map(t => ({ label: t }))}
+            />
+          )
+        })}
       </div>
     </Layout>
   )
@@ -30,9 +33,9 @@ export default function Project({ data }) {
 export const query = graphql`
   query($id: String!, $projects: [String]) {
     markdownRemark(id: { eq: $id }) {
+      rawMarkdownBody
       frontmatter {
         title
-        description
         projects
       }
     }
@@ -44,6 +47,7 @@ export const query = graphql`
           frontmatter {
             title
             customSlug
+            tags
           }
           excerpt
         }

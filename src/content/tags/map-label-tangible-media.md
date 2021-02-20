@@ -1,3 +1,3 @@
 ---
-label: Tangible Media
+tagLabel: Tangible Media
 ---

@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
 
   return (
     <div className="font-body bg-primary-main min-h-screen text-primary-dark flex justify-center">
-      <div className="max-w-screen-lg w-full">
+      <div className="max-w-screen-md w-full">
         <div className="min-h-page-content">
           <Header
             siteTitle={data.site.siteMetadata?.title || `Justine Gagnepain`}
