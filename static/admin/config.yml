@@ -29,6 +29,7 @@ collections:
           hint: "Start slug with /. Use only alphanumeric characters, - and _. Avoid spaces in any cases.",
         }
       - {
+          required: false,
           label: "Tags",
           name: "tags",
           widget: "relation",
