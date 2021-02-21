@@ -2,6 +2,8 @@
 title: Pencil portrait series
 date: 2021-02-20T23:40:13.529Z
 customSlug: /portrait-series
+tags:
+  - drawing-and-painting
 ---
 
 The following works are part of a series of portraits of friends.

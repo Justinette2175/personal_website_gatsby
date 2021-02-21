@@ -9,6 +9,10 @@ projects:
   - /skip-the-line
   - /connected-shelf
   - /la-boulette
+  - /song-writing
+  - /concert-posters
+  - /volume-democracy
+  - /whale-diorama
 ---
 
 This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia

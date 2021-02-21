@@ -11,12 +11,20 @@ export default {
     label: "Tangible Media",
     color: "#F8D49A",
   },
-  "user-experience": {
-    label: "User Experience",
-    color: "#AEC4F2",
-  },
   "web-development": {
     label: "Web development",
     color: "#FDCECE",
+  },
+  "drawing-and-painting": {
+    label: "Drawing and Painting",
+    color: "#AEE6F2",
+  },
+  "digital-media": {
+    label: "Print media",
+    color: "#E7CEFD",
+  },
+  "creative-business": {
+    label: "Creative business",
+    color: "#AEC4F2",
   },
 }

@@ -2,6 +2,9 @@
 title: Skip the Line for Startup Weekend AI
 date: 2021-02-20T23:40:13.529Z
 customSlug: /skip-the-line
+tags:
+  - creative-business
+  - web-development
 ---
 
 **People spend too long waiting on hold on the phone. Text Skip the Line with the name of the service provider you are trying to reach. Skip the Line places the call for you and calls your phone back once a human customer service representative is on the line.**

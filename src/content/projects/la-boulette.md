@@ -2,6 +2,8 @@
 title: La Boulette Game
 date: 2021-02-20T23:40:13.529Z
 customSlug: /la-boulette
+tags:
+  - web-development
 ---
 
 Seeing the appetite increase for online games that can be played over video call with the COVID pandemic, I implemented an online version of the famous Quebec game "La Boulette".

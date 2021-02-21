@@ -25,6 +25,12 @@ collections:
         }
       - {
           required: false,
+          label: "Cover Image",
+          name: "cover",
+          widget: "image",
+        }
+      - {
+          required: false,
           label: "Tags",
           name: "tags",
           widget: "select",
@@ -33,8 +39,10 @@ collections:
               "3d-modelling",
               "music-and-poetry",
               "tangible-media",
-              "user-experience",
               "web-development",
+              "drawing-and-painting",
+              "print-media",
+              "creative-business",
             ],
           multiple: true,
         }

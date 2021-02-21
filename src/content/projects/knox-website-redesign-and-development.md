@@ -7,6 +7,8 @@ description: I worked with the marketing team of Cryptocurrency Security
   client to accommodate their requests with updates. Once we settled on a
   design, I implemented the website using React.js on a Gatsby architecture.
 customSlug: /knox
+tags:
+  - web-development
 ---
 
 I worked with the marketing team of Cryptocurrency Security provider Kn0x to design and implement the updated version of their website. I propose design concepts built on Sketch and worked iteratively with the client to accommodate their requests with updates. Once we settled on a design, I implemented the website using React.js on a Gatsby architecture.
