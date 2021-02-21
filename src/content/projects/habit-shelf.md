@@ -2,6 +2,10 @@
 title: "Connected Shelf: CART360 Final Project"
 date: 2021-02-20T23:40:13.529Z
 customSlug: /connected-shelf
+tags:
+  - tangible-media
+  - user-experience
+  - 3d-modelling
 ---
 
 In the fall of 2020, I attented the Concordia class CART360, Tangible Media, as an independent student. In this class, I learned to built simple electronic circuits and write code to control Arduino boards. It is the excitement and passion I felt for the projects I engaged in in this class that cemented my decision to pursue interaction design and interactive arts as a professional career.
