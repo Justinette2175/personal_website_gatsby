@@ -4,9 +4,6 @@ date: 2021-02-17T03:36:49.998Z
 description: With Pinglit, students collaboratively comment and exchange with
   their friends on the books they are reading.
 customSlug: /pinglit
-tags:
-  - User Experience and User Interfaces
-  - Web development
 ---
 
 Created in collaboration with Emmanuelle Germain, French literature high-school teacher.
