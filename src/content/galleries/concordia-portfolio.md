@@ -6,6 +6,7 @@ projects:
   - /test-portfolio-piece
   - /pinglit
   - /knox
+  - /portrait-series
 ---
 
 This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia

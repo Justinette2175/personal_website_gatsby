@@ -6,8 +6,8 @@ module.exports = {
       body: ["body", "serif"],
     },
     colors: {
-      "primary-main": "#C9FFE0",
-      "primary-dark": "#1F5C39",
+      "primary-main": "#DBF9FF",
+      "primary-dark": "#277C8D",
       white: "#FFF",
       "accent-yellow": "#FDF5A5",
       "accent-orange": "#F8D49A",

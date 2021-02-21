@@ -14,7 +14,7 @@ Grand Prize Winner of the Education stream of the Post COVID challenge 2020 orga
 
 As they read the book, students create and comment on multimedia pins which can contain images, sounds, videos, links, etc. The pins are organized on a horizontal timeline so that they relate to a passage of the book. Zooming out on the interface displays beautiful multi-sensorial summaries of the student’s impressions of the book. Students treat the app like a repository of all the books they read and the emotions and thoughts that each sparked.
 
-![Benjamin Bannekat](pinglit_1.png).
+![Pinglit interface](pinglit_1.png).
 
 Teachers can use Pinglit in their classes to spark discussions between students, provide helpful notes on sections of the books to facilitate understanding, and reading comprehension quizzes at the end of certain chapters.
 
