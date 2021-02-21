@@ -8,6 +8,7 @@ projects:
   - /portrait-series
   - /skip-the-line
   - /connected-shelf
+  - /la-boulette
 ---
 
 This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia
