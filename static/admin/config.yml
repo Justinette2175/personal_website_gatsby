@@ -27,11 +27,15 @@ collections:
           required: false,
           label: "Tags",
           name: "tags",
-          widget: "relation",
-          collection: "tags",
-          search_fields: ["label"],
-          value_field: "{{label}}",
-          display_fields: ["label"],
+          widget: "select",
+          options:
+            [
+              "3d-modelling",
+              "music-and-poetry",
+              "tangible-media",
+              "user-experience",
+              "web-development",
+            ],
           multiple: true,
         }
   - name: "galleries"
@@ -61,12 +65,3 @@ collections:
           display_fields: ["title"],
           multiple: true,
         }
-  - name: "tags"
-    label: "Tags"
-    label_singular: "Tag"
-    folder: "src/content/tags"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "Label", name: "tagLabel", widget: "string" }
