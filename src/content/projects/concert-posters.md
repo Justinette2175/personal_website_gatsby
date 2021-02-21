@@ -1,7 +1,8 @@
 ---
-title: "Concert posters"
+title: Concert posters
 date: 2021-02-20T23:40:13.529Z
 customSlug: /concert-posters
+cover: /img/poster_1.png
 tags:
   - print-media
 ---
