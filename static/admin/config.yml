@@ -12,8 +12,6 @@ collections:
     folder: "src/content/projects"
     create: true
     slug: "index"
-    media_folder: ""
-    public_folder: ""
     path: "{{title}}/index"
     editor:
       preview: false
