@@ -1,6 +1,6 @@
 ---
 title: Pinglit
-date: 2021-02-17T03:36:49.998Z
+date: 2021-02-02T03:36:49.998Z
 customSlug: /pinglit
 cover: /img/pinglit_1.png
 tags:
