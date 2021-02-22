@@ -1,6 +1,6 @@
 ---
 title: Song Writing
-date: 2021-02-20T23:40:13.529Z
+date: 2020-12-15T23:40:13.529Z
 customSlug: /song-writing
 cover: /img/singing.png
 tags:
