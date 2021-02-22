@@ -1,6 +1,6 @@
 ---
 title: Volume Democracy
-date: 2021-02-17T03:36:49.998Z
+date: 2021-02-21T03:36:49.998Z
 customSlug: /volume-democracy
 tags:
   - web-development
