@@ -1,6 +1,6 @@
 ---
 title: Not an Artist
-date: 2021-02-20T23:40:13.529Z
+date: 2020-11-12T23:40:13.529Z
 customSlug: /not-an-artist
 cover: /img/not-an-artist.png
 tags:
