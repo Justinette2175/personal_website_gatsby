@@ -3,25 +3,35 @@ import Layout from "../components/Layout"
 import { Card } from "../components/Card"
 import { graphql } from "gatsby"
 import { Markdown } from "../components/Markdown"
+import { Container } from "../components/Container"
 
 export default function Project({ data }) {
   const gallery = data.markdownRemark
   const projects = data.allMarkdownRemark.edges
   return (
     <Layout>
-      <h2>{gallery.frontmatter.title}</h2>
-      <Markdown className="max-w-screen-sm">
-        {gallery.rawMarkdownBody || ""}
-      </Markdown>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {projects.map(({ node }) => {
+      <Container>
+        <h2>{gallery.frontmatter.title}</h2>
+        <Markdown className="max-w-screen-sm">
+          {gallery.rawMarkdownBody || ""}
+        </Markdown>
+      </Container>
+      <div className="grid">
+        {projects.map(({ node }, i) => {
           const tags = node.frontmatter.tags || []
+          const image = node.frontmatter.cover
+            ? node.frontmatter.cover.childImageSharp.fluid
+            : ""
           return (
             <Card
+              layout={
+                i % 4 === 0 ? "4" : i % 3 === 0 ? "3" : i % 2 === 0 ? "2" : "1"
+              }
               title={node.frontmatter.title}
               url={node.frontmatter.customSlug}
               text={node.excerpt}
-              tags={tags.map(t => ({ label: t }))}
+              tags={tags}
+              image={image}
             />
           )
         })}
@@ -47,6 +57,15 @@ export const query = graphql`
           frontmatter {
             title
             customSlug
+            tags
+            cover {
+              childImageSharp {
+                fluid(maxWidth: 1000, maxHeight: 800, quality: 80) {
+                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluidLimitPresentationSize
+                }
+              }
+            }
           }
           excerpt
         }

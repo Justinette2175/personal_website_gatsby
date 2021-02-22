@@ -2,6 +2,7 @@
 title: Skip the Line for Startup Weekend AI
 date: 2021-02-20T23:40:13.529Z
 customSlug: /skip-the-line
+cover: /img/skip_the_line_1.png
 tags:
   - creative-business
   - web-development

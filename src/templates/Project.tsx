@@ -7,8 +7,10 @@ export default function Project({ data }) {
   const post = data.markdownRemark
   return (
     <Layout>
-      <h2>{post.frontmatter.title}</h2>
-      <Markdown>{post.rawMarkdownBody}</Markdown>
+      <div className="max-w-screen-md grid m-auto gap-8">
+        <h2>{post.frontmatter.title}</h2>
+        <Markdown>{post.rawMarkdownBody}</Markdown>
+      </div>
     </Layout>
   )
 }

@@ -2,6 +2,9 @@
 title: Song Writing
 date: 2021-02-20T23:40:13.529Z
 customSlug: /song-writing
+cover: /img/singing.png
+tags:
+  - music-and-poetry
 ---
 
 I write poetry and have arranged a number of my poems as songs that I perform at open mic events in the city. The following video is a live set of a donzen songs I wrote and performed at the Yellow Door Coffeehouse in 2007. I invited singers Mikayla Kaminski and Joseph Monroe to accompany me on some of the pieces.
@@ -9,8 +12,8 @@ I write poetry and have arranged a number of my poems as songs that I perform at
 <div class="w-full relative h-0" style="padding-bottom: 56.25%">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJIKksYN2Nk?start=1419" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="absolute top-0 left-0 w-full h-full"></iframe></div>
 
-<div class="grid gap-x-2 gap-y-8 grid-cols-1 md:grid-cols-2">
-<div class="poem max-w-sm grid gap-4 content-start">
+<div class="grid gap-x-2 gap-y-8 grid-cols-1 md:grid-cols-2 italic">
+<div class="max-w-sm grid gap-4 content-start">
 <h4>
 The Willow
 </h4>

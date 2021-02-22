@@ -1,12 +1,13 @@
 import { Link } from "gatsby"
 import React from "react"
+import { Container } from "./Container"
 
-type HeaderProps = {
-  siteTitle: string
-}
-
-export const Header: React.FC<HeaderProps> = ({ siteTitle }) => (
+export const Header: React.FC = () => (
   <header className="p-8">
-    <h1>Justine Gagnepain</h1>
+    <Container>
+      <Link to="/">
+        <h1>Justine Gagnepain</h1>
+      </Link>
+    </Container>
   </header>
 )

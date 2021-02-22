@@ -2,6 +2,7 @@
 title: "Connected Shelf: CART360 Final Project"
 date: 2021-02-20T23:40:13.529Z
 customSlug: /connected-shelf
+cover: /img/shelf_1.png
 tags:
   - tangible-media
 ---

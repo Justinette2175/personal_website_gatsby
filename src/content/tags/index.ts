@@ -1,5 +1,5 @@
-export default {
-  "3d-modelling": {
+export const TAGS = {
+  "3D-modelling": {
     label: "3D Modelling",
     color: "#FDF5A5",
   },

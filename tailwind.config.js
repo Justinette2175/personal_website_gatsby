@@ -6,8 +6,10 @@ module.exports = {
       body: ["body", "serif"],
     },
     colors: {
+      "primary-light": "#EBFCFF",
       "primary-main": "#DBF9FF",
       "primary-dark": "#277C8D",
+      "primary-very-dark": "#104954",
       white: "#FFF",
       "accent-yellow": "#FDF5A5",
       "accent-orange": "#F8D49A",
@@ -28,6 +30,7 @@ module.exports = {
       },
       minHeight: {
         "page-content": "calc(100% - 100px)",
+        "card-photo": "700px",
       },
     },
   },

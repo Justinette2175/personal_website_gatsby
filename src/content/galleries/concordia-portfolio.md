@@ -13,6 +13,9 @@ projects:
   - /concert-posters
   - /volume-democracy
   - /whale-diorama
+  - /not-an-artist
+  - /monique
+  - /pregnant
 ---
 
 This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia

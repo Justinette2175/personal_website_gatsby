@@ -24,13 +24,13 @@ const Layout = ({ children }) => {
 
   return (
     <div className="font-body bg-primary-main min-h-screen text-primary-dark flex justify-center">
-      <div className="max-w-screen-md w-full">
+      <div className="w-full">
         <div className="min-h-page-content">
           <Header
             siteTitle={data.site.siteMetadata?.title || `Justine Gagnepain`}
           />
 
-          <main className="px-8 grid gap-8">{children}</main>
+          <main className="grid gap-8">{children}</main>
         </div>
         <footer className="px-8">© {new Date().getFullYear()}</footer>
       </div>

@@ -2,6 +2,7 @@
 title: Pencil portrait series
 date: 2021-02-20T23:40:13.529Z
 customSlug: /portrait-series
+cover: /img/portrait_series_1.png
 tags:
   - drawing-and-painting
 ---

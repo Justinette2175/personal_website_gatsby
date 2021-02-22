@@ -2,6 +2,7 @@
 title: Pinglit
 date: 2021-02-17T03:36:49.998Z
 customSlug: /pinglit
+cover: /img/pinglit_1.png
 tags:
   - creative-business
   - web-development
