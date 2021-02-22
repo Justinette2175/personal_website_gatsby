@@ -1,6 +1,6 @@
 ---
 title: "Monique: Sculpting and Walk Cycle"
-date: 2021-02-20T23:40:13.529Z
+date: 2021-01-20T23:40:13.529Z
 customSlug: /monique
 cover: /img/monique.png
 tags:
