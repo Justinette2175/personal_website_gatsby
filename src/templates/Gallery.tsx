@@ -18,6 +18,9 @@ export default function Project({ data }) {
       </Container>
       <div className="grid">
         {projects.map(({ node }, i) => {
+          console.log(
+            i % 4 === 0 ? "4" : i % 3 === 0 ? "3" : i % 2 === 0 ? "2" : "1"
+          )
           const tags = node.frontmatter.tags || []
           const image = node.frontmatter.cover
             ? node.frontmatter.cover.childImageSharp.fluid
@@ -25,7 +28,7 @@ export default function Project({ data }) {
           return (
             <Card
               layout={
-                i % 4 === 0 ? "4" : i % 3 === 0 ? "3" : i % 2 === 0 ? "2" : "1"
+                i % 4 === 0 ? "4" : i % 2 === 0 ? "2" : i % 3 === 0 ? "3" : "1"
               }
               title={node.frontmatter.title}
               url={node.frontmatter.customSlug}

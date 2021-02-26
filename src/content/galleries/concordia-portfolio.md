@@ -17,5 +17,3 @@ projects:
   - /monique
   - /pregnant
 ---
-
-This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia. This is the portfolio I'm submitting for Concordia

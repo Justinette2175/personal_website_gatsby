@@ -11,7 +11,7 @@ export default function Project({ data }) {
       <Container>
         <h2>{post.frontmatter.title}</h2>
       </Container>
-      <div className="bg-white w-full p-16 text-opacity-80 text-lg">
+      <div className="bg-white w-full p-16 text-opacity-80 text-lg no-underline">
         <div className="max-w-screen-md w-full m-auto grid gap-8">
           <Markdown>{post.rawMarkdownBody}</Markdown>
         </div>

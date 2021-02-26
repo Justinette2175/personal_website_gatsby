@@ -27,7 +27,7 @@ export const Card: React.FC<CardProps> = ({
     <Link to={url}>
       <div
         className={clsx(
-          "relative w-full",
+          "relative w-full no-underline",
           layout === "1" && "bg-primary-light",
           layout === "2" && "bg-primary-very-dark",
           layout === "3" && "bg-primary-dark",
