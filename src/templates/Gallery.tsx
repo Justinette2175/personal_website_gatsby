@@ -51,6 +51,7 @@ export const query = graphql`
     }
     allMarkdownRemark(
       filter: { frontmatter: { customSlug: { in: $projects } } }
+      sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
         node {

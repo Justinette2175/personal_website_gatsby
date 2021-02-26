@@ -20,7 +20,7 @@ export const TAGS = {
     color: "#AEE6F2",
   },
   "digital-media": {
-    label: "Print media",
+    label: "Digital media",
     color: "#E7CEFD",
   },
   "creative-business": {

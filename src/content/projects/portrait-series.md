@@ -7,9 +7,11 @@ tags:
   - drawing-and-painting
 ---
 
-The following works are part of a series of portraits of friends.
+_Pencil and Paper_
 
-_Pencil on paper_
+### Background
+
+The following works are part of a series of portraits of friends that I made while on exchange living in Beijing.
 
 ![Hannah](portrait_series_1.png)
 

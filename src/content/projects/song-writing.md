@@ -7,7 +7,13 @@ tags:
   - music-and-poetry
 ---
 
-I write poetry and have arranged a number of my poems as songs that I perform at open mic events in the city. The following video is a live set of a donzen songs I wrote and performed at the Yellow Door Coffeehouse in 2007. I invited singers Mikayla Kaminski and Joseph Monroe to accompany me on some of the pieces.
+### Background
+
+Long before visual or digital arts, music was integral to my artistic practice. I write poetry and have arranged a number of my poems as songs that I perform at open mic events in the city.
+
+### Project
+
+The following video is a live set of a donzen songs I wrote and performed at the Yellow Door Coffeehouse in 2017. I invited singers Mikayla Kaminski and Joseph Monroe to accompany me on some of the pieces.
 
 <div class="w-full relative h-0" style="padding-bottom: 56.25%">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJIKksYN2Nk?start=1419" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="absolute top-0 left-0 w-full h-full"></iframe></div>
@@ -133,3 +139,4 @@ My daughter pray my daughter pray</br>
 </p>
 </div>
 </div>
+$$

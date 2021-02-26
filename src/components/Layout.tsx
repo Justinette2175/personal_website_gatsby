@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import { Header } from "./Header"
+import { Container } from "./Container"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -32,7 +33,10 @@ const Layout = ({ children }) => {
 
           <main className="grid gap-8">{children}</main>
         </div>
-        <footer className="px-8">© {new Date().getFullYear()}</footer>
+
+        <footer className="py-8">
+          <Container>©Justine Gagnepain {new Date().getFullYear()}</Container>
+        </footer>
       </div>
     </div>
   )
