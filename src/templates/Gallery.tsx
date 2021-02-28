@@ -18,9 +18,6 @@ export default function Project({ data }) {
       </Container>
       <div className="grid">
         {projects.map(({ node }, i) => {
-          console.log(
-            i % 4 === 0 ? "4" : i % 3 === 0 ? "3" : i % 2 === 0 ? "2" : "1"
-          )
           const tags = node.frontmatter.tags || []
           const image = node.frontmatter.cover
             ? node.frontmatter.cover.childImageSharp.fluid

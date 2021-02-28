@@ -22,7 +22,6 @@ export const Card: React.FC<CardProps> = ({
   image,
   layout,
 }) => {
-  console.log("tags", tags)
   return (
     <Link to={url}>
       <div

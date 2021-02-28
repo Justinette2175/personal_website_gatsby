@@ -16,4 +16,5 @@ projects:
   - /not-an-artist
   - /monique
   - /pregnant
+  - /daily-journaling
 ---

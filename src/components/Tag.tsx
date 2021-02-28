@@ -13,7 +13,6 @@ export const Tag: React.FC<TagProps> = ({ name, size = "md" }) => {
   const tagInfo = TAGS[name]
 
   if (!tagInfo) {
-    console.log("no tag info", name)
     return null
   }
 
