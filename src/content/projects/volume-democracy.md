@@ -2,6 +2,7 @@
 title: Volume Democracy
 date: 2021-02-21T03:36:49.998Z
 customSlug: /volume-democracy
+cover: /img/volume_1.jpg
 tags:
   - web-development
 ---
@@ -13,6 +14,8 @@ _Code available [here on Github](https://github.com/Justinette2175/volume-poll)_
 ### Background
 
 Out of personal frustration and an inkling that a majority of people dislike overly loud music in public places - _I us call the silent majority :p_ - I created an application that allows people to use their phones to vote on whether to increase or decrease the volume of the music in a public place.
+
+![Storyboard of the volume democracy interaction](volume.jpg)
 
 ### Project
 
